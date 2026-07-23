@@ -3,21 +3,23 @@ method: searched
 source: https://www.anthemis.com/portfolio/
 summary:
   portfolio_total: 154
-  in_network: 14
-  api_providers: 5
-  missing: 140
+  in_network: 154
+  api_providers: 22
+  missing: 0
   stubs_created: 0
 companies:
 - name: Acre Homes
   source: https://www.anthemis.com/portfolio/acre-homes/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acre-homes
+  slug: acre-homes
+  matched_by: name-slug
 - name: Acretrader
   source: https://www.anthemis.com/portfolio/acretrader/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: acretrader
+  slug: acretrader
+  matched_by: name-slug
 - name: Addition
   source: https://www.anthemis.com/portfolio/addition/
   slug: addition
@@ -26,104 +28,121 @@ companies:
   matched_by: name-slug
 - name: Agentsync
   source: https://www.anthemis.com/portfolio/agentsync/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agentsync
+  slug: agentsync
+  matched_by: name-slug
 - name: Agreena
   source: https://www.anthemis.com/portfolio/agreena/
   sector: climate
   description: Regenerative agriculture and carbon markets.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: agreena
+  slug: agreena
+  matched_by: name-slug
 - name: Alaffia
   source: https://www.anthemis.com/portfolio/alaffia/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alaffia
+  slug: alaffia
+  matched_by: name-slug
 - name: Allocate
   source: https://www.anthemis.com/portfolio/allocate/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: allocate
+  slug: allocate
+  matched_by: name-slug
 - name: Alt Bank
   source: https://www.anthemis.com/portfolio/alt-bank/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: alt-bank
+  slug: alt-bank
+  matched_by: name-slug
 - name: Amplify
   source: https://www.anthemis.com/portfolio/amplify/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: amplify
+  slug: amplify
+  matched_by: name-slug
 - name: Another
   source: https://www.anthemis.com/portfolio/another/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: another
+  slug: another
+  matched_by: name-slug
 - name: Apis Partners
   source: https://www.anthemis.com/portfolio/apis-partners/
   sector: venture
   description: Financial-services growth investor in emerging markets.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apis-partners
+  slug: apis-partners
+  matched_by: name-slug
 - name: Apollo Agriculture
   source: https://www.anthemis.com/portfolio/apollo-agriculture/
   sector: agtech
   description: Financing and inputs for smallholder farmers.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: apollo-agriculture
+  slug: apollo-agriculture
+  matched_by: name-slug
 - name: Arkham
   source: https://www.anthemis.com/portfolio/arkham/
   sector: crypto
   description: Blockchain analytics and intelligence platform.
   status: active
-  in_network: false
-  is_api_provider: false
-  suggested_slug: arkham
+  in_network: true
+  is_api_provider: true
+  slug: arkham
+  matched_by: name-slug
 - name: Artian
   source: https://www.anthemis.com/portfolio/artian/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: artian
+  slug: artian
+  matched_by: name-slug
 - name: Artivest
   source: https://www.anthemis.com/portfolio/artivest/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: artivest
+  slug: artivest
+  matched_by: name-slug
 - name: Atom Bank
   source: https://www.anthemis.com/portfolio/atom-bank/
   sector: fintech
   description: App-based digital challenger bank in the UK.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atom-bank
+  slug: atom-bank
+  matched_by: name-slug
 - name: Atomic
   source: https://www.anthemis.com/portfolio/atomic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atomic
+  slug: atomic
+  matched_by: name-slug
 - name: Automatic
   source: https://www.anthemis.com/portfolio/automatic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: automatic
+  slug: automatic
+  matched_by: name-slug
 - name: Balance Re
   source: https://www.anthemis.com/portfolio/balance-re/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: balance-re
+  slug: balance-re
+  matched_by: name-slug
 - name: Bento
   source: https://www.anthemis.com/portfolio/bento/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bento
+  slug: bento
+  matched_by: name-slug
 - name: Betterment
   source: https://www.anthemis.com/portfolio/betterment/
   sector: wealthtech
@@ -138,14 +157,16 @@ companies:
   sector: crypto
   description: Blockchain database infrastructure.
   status: active
-  in_network: false
-  is_api_provider: false
-  suggested_slug: bigchaindb
+  in_network: true
+  is_api_provider: true
+  slug: bigchaindb
+  matched_by: name-slug
 - name: Blueleaf
   source: https://www.anthemis.com/portfolio/blueleaf/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blueleaf
+  slug: blueleaf
+  matched_by: name-slug
 - name: Branch
   source: https://www.anthemis.com/portfolio/branch/
   slug: branch
@@ -163,19 +184,22 @@ companies:
   matched_by: name-slug
 - name: Burbank
   source: https://www.anthemis.com/portfolio/burbank/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: burbank
+  slug: burbank
+  matched_by: name-slug
 - name: Cable
   source: https://www.anthemis.com/portfolio/cable/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cable
+  in_network: true
+  is_api_provider: true
+  slug: cable
+  matched_by: name-slug
 - name: Cariqa
   source: https://www.anthemis.com/portfolio/cariqa/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: cariqa
+  in_network: true
+  is_api_provider: true
+  slug: cariqa
+  matched_by: name-slug
 - name: Carta
   source: https://www.anthemis.com/portfolio/carta/
   sector: fintech
@@ -196,65 +220,76 @@ companies:
   matched_by: name-slug
 - name: Clutch Wallet
   source: https://www.anthemis.com/portfolio/clutch-wallet/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: clutch-wallet
+  slug: clutch-wallet
+  matched_by: name-slug
 - name: Cowbell Cyber
   source: https://www.anthemis.com/portfolio/cowbell-cyber/
   sector: insurtech
   description: Cyber insurance for small businesses.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cowbell-cyber
+  slug: cowbell-cyber
+  matched_by: name-slug
 - name: Currencycloud
   source: https://www.anthemis.com/portfolio/currencycloud/
   sector: fintech
   description: Cross-border payments and FX infrastructure API.
   status: active
-  in_network: false
-  is_api_provider: false
-  suggested_slug: currencycloud
+  in_network: true
+  is_api_provider: true
+  slug: currencycloud
+  matched_by: name-slug
 - name: Datainsurance
   source: https://www.anthemis.com/portfolio/datainsurance/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: datainsurance
+  slug: datainsurance
+  matched_by: name-slug
 - name: Denim
   source: https://www.anthemis.com/portfolio/denim/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: denim
+  in_network: true
+  is_api_provider: true
+  slug: denim
+  matched_by: name-slug
 - name: Diagon
   source: https://www.anthemis.com/portfolio/diagon/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: diagon
+  slug: diagon
+  matched_by: name-slug
 - name: District Cover
   source: https://www.anthemis.com/portfolio/district-cover/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: district-cover
+  slug: district-cover
+  matched_by: name-slug
 - name: Easyhealth
   source: https://www.anthemis.com/portfolio/easyhealth/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: easyhealth
+  slug: easyhealth
+  matched_by: name-slug
 - name: Eigen
   source: https://www.anthemis.com/portfolio/eigen/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eigen
+  slug: eigen
+  matched_by: name-slug
 - name: Ejara
   source: https://www.anthemis.com/portfolio/ejara/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ejara
+  slug: ejara
+  matched_by: name-slug
 - name: Elevate
   source: https://www.anthemis.com/portfolio/elevate/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: elevate
+  slug: elevate
+  matched_by: name-slug
 - name: Ember
   source: https://www.anthemis.com/portfolio/ember/
   slug: ember
@@ -263,9 +298,10 @@ companies:
   matched_by: name-slug
 - name: Ergo
   source: https://www.anthemis.com/portfolio/ergo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ergo
+  slug: ergo
+  matched_by: name-slug
 - name: Etoro
   source: https://www.anthemis.com/portfolio/etoro/
   sector: fintech
@@ -277,178 +313,208 @@ companies:
   matched_by: name-slug
 - name: Feel Therapeutics
   source: https://www.anthemis.com/portfolio/feel-therapeutics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: feel-therapeutics
+  slug: feel-therapeutics
+  matched_by: name-slug
 - name: Fidor Bank
   source: https://www.anthemis.com/portfolio/fidor-bank/
   sector: fintech
   description: Digital banking platform.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fidor-bank
+  slug: fidor-bank
+  matched_by: name-slug
 - name: Fifth Dimension Ai
   source: https://www.anthemis.com/portfolio/fifth-dimension-ai/
   sector: ai
   description: AI copilots for commercial real estate.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fifth-dimension-ai
+  slug: fifth-dimension-ai
+  matched_by: name-slug
 - name: Flat
   source: https://www.anthemis.com/portfolio/flat/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flat
+  slug: flat
+  matched_by: name-slug
 - name: Flo
   source: https://www.anthemis.com/portfolio/flo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flo
+  slug: flo
+  matched_by: name-slug
 - name: Flock
   source: https://www.anthemis.com/portfolio/flock/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flock
+  slug: flock
+  matched_by: name-slug
 - name: Fluidly
   source: https://www.anthemis.com/portfolio/fluidly/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fluidly
+  slug: fluidly
+  matched_by: name-slug
 - name: Flyby Robotics
   source: https://www.anthemis.com/portfolio/flyby-robotics/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flyby-robotics
+  slug: flyby-robotics
+  matched_by: name-slug
 - name: Gangkhar
   source: https://www.anthemis.com/portfolio/gangkhar/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: gangkhar
+  slug: gangkhar
+  matched_by: name-slug
 - name: Goin
   source: https://www.anthemis.com/portfolio/goin/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goin
+  slug: goin
+  matched_by: name-slug
 - name: Goji
   source: https://www.anthemis.com/portfolio/goji/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: goji
+  slug: goji
+  matched_by: name-slug
 - name: Greenspark
   source: https://www.anthemis.com/portfolio/greenspark/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: greenspark
+  in_network: true
+  is_api_provider: true
+  slug: greenspark
+  matched_by: name-slug
 - name: Grover
   source: https://www.anthemis.com/portfolio/grover/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grover
+  slug: grover
+  matched_by: name-slug
 - name: Guruhotel
   source: https://www.anthemis.com/portfolio/guruhotel/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: guruhotel
+  slug: guruhotel
+  matched_by: name-slug
 - name: Habitto
   source: https://www.anthemis.com/portfolio/habitto/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: habitto
+  slug: habitto
+  matched_by: name-slug
 - name: Happymoney
   source: https://www.anthemis.com/portfolio/happymoney/
   sector: fintech
   description: Consumer lending focused on credit card payoff.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: happymoney
+  slug: happymoney
+  matched_by: name-slug
 - name: Happypal
   source: https://www.anthemis.com/portfolio/happypal/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: happypal
+  slug: happypal
+  matched_by: name-slug
 - name: Hedvig
   source: https://www.anthemis.com/portfolio/hedvig/
   sector: insurtech
   description: Digital home and personal insurance.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hedvig
+  slug: hedvig
+  matched_by: name-slug
 - name: Hokodo
   source: https://www.anthemis.com/portfolio/hokodo/
   sector: fintech
   description: B2B buy-now-pay-later and trade credit.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hokodo
+  slug: hokodo
+  matched_by: name-slug
 - name: Hometree
   source: https://www.anthemis.com/portfolio/hometree/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hometree
+  slug: hometree
+  matched_by: name-slug
 - name: Hoptroff
   source: https://www.anthemis.com/portfolio/hoptroff/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hoptroff
+  slug: hoptroff
+  matched_by: name-slug
 - name: Hubifi
   source: https://www.anthemis.com/portfolio/hubifi/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hubifi
+  slug: hubifi
+  matched_by: name-slug
 - name: Humanising Autonomy
   source: https://www.anthemis.com/portfolio/humanising-autonomy/
   sector: ai
   description: Behavioural AI for autonomous and driver systems.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: humanising-autonomy
+  slug: humanising-autonomy
+  matched_by: name-slug
 - name: Hurdle
   source: https://www.anthemis.com/portfolio/hurdle/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hurdle
+  slug: hurdle
+  matched_by: name-slug
 - name: Imandra
   source: https://www.anthemis.com/portfolio/imandra/
   sector: ai
   description: Automated reasoning and formal verification.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: imandra
+  slug: imandra
+  matched_by: name-slug
 - name: Insurdata
   source: https://www.anthemis.com/portfolio/insurdata/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: insurdata
+  slug: insurdata
+  matched_by: name-slug
 - name: Intellilake
   source: https://www.anthemis.com/portfolio/intellilake/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: intellilake
+  slug: intellilake
+  matched_by: name-slug
 - name: Ivella
   source: https://www.anthemis.com/portfolio/ivella/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ivella
+  slug: ivella
+  matched_by: name-slug
 - name: Iwarranty
   source: https://www.anthemis.com/portfolio/iwarranty/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: iwarranty
+  slug: iwarranty
+  matched_by: name-slug
 - name: Jumo
   source: https://www.anthemis.com/portfolio/jumo/
   sector: fintech
   description: Banking-as-a-service platform for emerging markets.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jumo
+  slug: jumo
+  matched_by: name-slug
 - name: Kaiko
   source: https://www.anthemis.com/portfolio/kaiko/
   sector: fintech
@@ -460,73 +526,85 @@ companies:
   matched_by: name-slug
 - name: Kasheesh
   source: https://www.anthemis.com/portfolio/kasheesh/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kasheesh
+  slug: kasheesh
+  matched_by: name-slug
 - name: Kettle
   source: https://www.anthemis.com/portfolio/kettle/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kettle
+  slug: kettle
+  matched_by: name-slug
 - name: Koffie Financial
   source: https://www.anthemis.com/portfolio/koffie-financial/
   sector: insurtech
   description: Commercial trucking insurance.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: koffie-financial
+  slug: koffie-financial
+  matched_by: name-slug
 - name: Kwh Analytics
   source: https://www.anthemis.com/portfolio/kwh-analytics/
   sector: climate
   description: Data and insurance for renewable energy.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kwh-analytics
+  slug: kwh-analytics
+  matched_by: name-slug
 - name: Kyte
   source: https://www.anthemis.com/portfolio/kyte/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: kyte
+  slug: kyte
+  matched_by: name-slug
 - name: Liquidly
   source: https://www.anthemis.com/portfolio/liquidly/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liquidly
+  slug: liquidly
+  matched_by: name-slug
 - name: Liquidtrust
   source: https://www.anthemis.com/portfolio/liquidtrust/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liquidtrust
+  slug: liquidtrust
+  matched_by: name-slug
 - name: Loconav
   source: https://www.anthemis.com/portfolio/loconav/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: loconav
+  in_network: true
+  is_api_provider: true
+  slug: loconav
+  matched_by: name-slug
 - name: Matic
   source: https://www.anthemis.com/portfolio/matic/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: matic
+  slug: matic
+  matched_by: name-slug
 - name: Maxwell
   source: https://www.anthemis.com/portfolio/maxwell/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: maxwell
+  slug: maxwell
+  matched_by: name-slug
 - name: Meniga
   source: https://www.anthemis.com/portfolio/meniga/
   sector: fintech
   description: Digital banking and personal finance management software.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: meniga
+  slug: meniga
+  matched_by: name-slug
 - name: Mesh
   source: https://www.anthemis.com/portfolio/mesh/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: mesh
+  in_network: true
+  is_api_provider: true
+  slug: mesh
+  matched_by: name-slug
 - name: Messari
   source: https://www.anthemis.com/portfolio/messari/
   sector: crypto
@@ -538,241 +616,283 @@ companies:
   matched_by: name-slug
 - name: Metamarkets
   source: https://www.anthemis.com/portfolio/metamarkets/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: metamarkets
+  slug: metamarkets
+  matched_by: name-slug
 - name: Monese
   source: https://www.anthemis.com/portfolio/monese/
   sector: fintech
   description: Mobile-first current account and money app.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: monese
+  slug: monese
+  matched_by: name-slug
 - name: Moven
   source: https://www.anthemis.com/portfolio/moven/
   sector: fintech
   description: Digital banking and financial wellness platform.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: moven
+  slug: moven
+  matched_by: name-slug
 - name: Mporium
   source: https://www.anthemis.com/portfolio/mporium/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mporium
+  slug: mporium
+  matched_by: name-slug
 - name: Neptune Networks
   source: https://www.anthemis.com/portfolio/neptune-networks/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: neptune-networks
+  slug: neptune-networks
+  matched_by: name-slug
 - name: Nivelo
   source: https://www.anthemis.com/portfolio/nivelo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nivelo
+  slug: nivelo
+  matched_by: name-slug
 - name: Novoic
   source: https://www.anthemis.com/portfolio/novoic/
   sector: ai
   description: Speech-based AI biomarkers for neurological disease.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: novoic
+  slug: novoic
+  matched_by: name-slug
 - name: Numan
   source: https://www.anthemis.com/portfolio/numan/
   sector: healthtech
   description: Digital mens health clinic.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: numan
+  slug: numan
+  matched_by: name-slug
 - name: Ohalo
   source: https://www.anthemis.com/portfolio/ohalo/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ohalo
+  slug: ohalo
+  matched_by: name-slug
 - name: Omnius
   source: https://www.anthemis.com/portfolio/omnius/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: omnius
+  slug: omnius
+  matched_by: name-slug
 - name: Onsiteiq
   source: https://www.anthemis.com/portfolio/onsiteiq/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onsiteiq
+  slug: onsiteiq
+  matched_by: name-slug
 - name: Opply
   source: https://www.anthemis.com/portfolio/opply/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: opply
+  in_network: true
+  is_api_provider: true
+  slug: opply
+  matched_by: name-slug
 - name: Ott Risk
   source: https://www.anthemis.com/portfolio/ott-risk/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ott-risk
+  slug: ott-risk
+  matched_by: name-slug
 - name: Pack
   source: https://www.anthemis.com/portfolio/pack/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pack
+  slug: pack
+  matched_by: name-slug
 - name: Pile
   source: https://www.anthemis.com/portfolio/pile/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pile
+  slug: pile
+  matched_by: name-slug
 - name: Pipe
   source: https://www.anthemis.com/portfolio/pipe/
   sector: fintech
   description: Trading platform for recurring revenue financing.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: pipe
+  slug: pipe
+  matched_by: name-slug
 - name: Plus Simple
   source: https://www.anthemis.com/portfolio/plus-simple/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plus-simple
+  slug: plus-simple
+  matched_by: name-slug
 - name: Plush
   source: https://www.anthemis.com/portfolio/plush/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plush
+  slug: plush
+  matched_by: name-slug
 - name: Poppins Health
   source: https://www.anthemis.com/portfolio/poppins-health/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poppins-health
+  slug: poppins-health
+  matched_by: name-slug
 - name: Poppy
   source: https://www.anthemis.com/portfolio/poppy/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: poppy
+  slug: poppy
+  matched_by: name-slug
 - name: Power
   source: https://www.anthemis.com/portfolio/power/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: power
+  slug: power
+  matched_by: name-slug
 - name: Premise
   source: https://www.anthemis.com/portfolio/premise/
   sector: data
   description: Crowdsourced global data collection platform.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: premise
+  slug: premise
+  matched_by: name-slug
 - name: Project Admission
   source: https://www.anthemis.com/portfolio/project-admission/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: project-admission
+  slug: project-admission
+  matched_by: name-slug
 - name: Proportunity
   source: https://www.anthemis.com/portfolio/proportunity/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: proportunity
+  slug: proportunity
+  matched_by: name-slug
 - name: Provable
   source: https://www.anthemis.com/portfolio/provable/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: provable
+  slug: provable
+  matched_by: name-slug
 - name: Qover
   source: https://www.anthemis.com/portfolio/qover/
   sector: insurtech
   description: Embedded insurance orchestration platform.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: qover
+  slug: qover
+  matched_by: name-slug
 - name: Raincoat
   source: https://www.anthemis.com/portfolio/raincoat/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: raincoat
+  slug: raincoat
+  matched_by: name-slug
 - name: Rally Rd
   source: https://www.anthemis.com/portfolio/rally-rd/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rally-rd
+  slug: rally-rd
+  matched_by: name-slug
 - name: Reactiv
   source: https://www.anthemis.com/portfolio/reactiv/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reactiv
+  slug: reactiv
+  matched_by: name-slug
 - name: Realyse
   source: https://www.anthemis.com/portfolio/realyse/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: realyse
+  slug: realyse
+  matched_by: name-slug
 - name: Reload
   source: https://www.anthemis.com/portfolio/reload/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: reload
+  in_network: true
+  is_api_provider: true
+  slug: reload
+  matched_by: name-slug
 - name: Reserv
   source: https://www.anthemis.com/portfolio/reserv/
   sector: insurtech
   description: AI-driven claims adjusting platform.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reserv
+  slug: reserv
+  matched_by: name-slug
 - name: Rize
   source: https://www.anthemis.com/portfolio/rize/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rize
+  slug: rize
+  matched_by: name-slug
 - name: Seedcamp
   source: https://www.anthemis.com/portfolio/seedcamp/
   sector: venture
   description: Pan-European seed-stage venture fund.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seedcamp
+  slug: seedcamp
+  matched_by: name-slug
 - name: Seen
   source: https://www.anthemis.com/portfolio/seen/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: seen
+  slug: seen
+  matched_by: name-slug
 - name: Sentimoto
   source: https://www.anthemis.com/portfolio/sentimoto/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sentimoto
+  slug: sentimoto
+  matched_by: name-slug
 - name: Silvur
   source: https://www.anthemis.com/portfolio/silvur/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: silvur
+  slug: silvur
+  matched_by: name-slug
 - name: Simple
   source: https://www.anthemis.com/portfolio/simple/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simple
+  slug: simple
+  matched_by: name-slug
 - name: Simpleclosure
   source: https://www.anthemis.com/portfolio/simpleclosure/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: simpleclosure
+  slug: simpleclosure
+  matched_by: name-slug
 - name: Skuad
   source: https://www.anthemis.com/portfolio/skuad/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: skuad
+  slug: skuad
+  matched_by: name-slug
 - name: Springbank
   source: https://www.anthemis.com/portfolio/springbank/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: springbank
+  slug: springbank
+  matched_by: name-slug
 - name: Stable
   source: https://www.anthemis.com/portfolio/stable/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stable
+  slug: stable
+  matched_by: name-slug
 - name: Stash
   source: https://www.anthemis.com/portfolio/stash/
   sector: fintech
@@ -784,65 +904,76 @@ companies:
   matched_by: name-slug
 - name: Stepex
   source: https://www.anthemis.com/portfolio/stepex/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stepex
+  slug: stepex
+  matched_by: name-slug
 - name: Stoik
   source: https://www.anthemis.com/portfolio/stoik/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: stoik
+  slug: stoik
+  matched_by: name-slug
 - name: Super Seguros
   source: https://www.anthemis.com/portfolio/super-seguros/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: super-seguros
+  in_network: true
+  is_api_provider: true
+  slug: super-seguros
+  matched_by: name-slug
 - name: Sydecar
   source: https://www.anthemis.com/portfolio/sydecar/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sydecar
+  slug: sydecar
+  matched_by: name-slug
 - name: Taina
   source: https://www.anthemis.com/portfolio/taina/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: taina
+  slug: taina
+  matched_by: name-slug
 - name: Tesser
   source: https://www.anthemis.com/portfolio/tesser/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tesser
+  in_network: true
+  is_api_provider: true
+  slug: tesser
+  matched_by: name-slug
 - name: The Climate Corporation
   source: https://www.anthemis.com/portfolio/the-climate-corporation/
   sector: climate
   description: Digital agriculture and weather analytics.
   status: active
-  in_network: false
-  is_api_provider: false
-  suggested_slug: the-climate-corporation
+  in_network: true
+  is_api_provider: true
+  slug: the-climate-corporation
+  matched_by: name-slug
 - name: Tide
   source: https://www.anthemis.com/portfolio/tide/
   sector: fintech
   description: Business banking and financial services platform for SMEs.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tide
+  slug: tide
+  matched_by: name-slug
 - name: Timetric
   source: https://www.anthemis.com/portfolio/timetric/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: timetric
+  slug: timetric
+  matched_by: name-slug
 - name: Treasuryspring
   source: https://www.anthemis.com/portfolio/treasuryspring/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: treasuryspring
+  in_network: true
+  is_api_provider: true
+  slug: treasuryspring
+  matched_by: name-slug
 - name: Tremor
   source: https://www.anthemis.com/portfolio/tremor/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: tremor
+  slug: tremor
+  matched_by: name-slug
 - name: Truelayer
   source: https://www.anthemis.com/portfolio/truelayer/
   sector: fintech
@@ -854,22 +985,25 @@ companies:
   matched_by: name-slug
 - name: Rentle
   source: https://www.anthemis.com/portfolio/rentle/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rentle
+  in_network: true
+  is_api_provider: true
+  slug: rentle
+  matched_by: name-slug
 - name: Ultralight
   source: https://www.anthemis.com/portfolio/ultralight/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ultralight
+  slug: ultralight
+  matched_by: name-slug
 - name: Unmind
   source: https://www.anthemis.com/portfolio/unmind/
   sector: healthtech
   description: Workplace mental health and wellbeing platform.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: unmind
+  slug: unmind
+  matched_by: name-slug
 - name: Upkeep
   source: https://www.anthemis.com/portfolio/upkeep/
   slug: upkeep
@@ -878,9 +1012,10 @@ companies:
   matched_by: name-slug
 - name: Cit Vericash
   source: https://www.anthemis.com/portfolio/cit-vericash/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cit-vericash
+  slug: cit-vericash
+  matched_by: name-slug
 - name: Vouch
   source: https://www.anthemis.com/portfolio/vouch/
   sector: insurtech
@@ -892,29 +1027,34 @@ companies:
   matched_by: name-slug
 - name: Wayhome
   source: https://www.anthemis.com/portfolio/wayhome/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wayhome
+  slug: wayhome
+  matched_by: name-slug
 - name: Weavr
   source: https://www.anthemis.com/portfolio/weavr/
-  in_network: false
-  is_api_provider: false
-  suggested_slug: weavr
+  in_network: true
+  is_api_provider: true
+  slug: weavr
+  matched_by: name-slug
 - name: Wollit
   source: https://www.anthemis.com/portfolio/wollit/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wollit
+  slug: wollit
+  matched_by: name-slug
 - name: Yulife
   source: https://www.anthemis.com/portfolio/yulife/
   sector: insurtech
   description: Wellbeing-focused life and group insurance.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: yulife
+  slug: yulife
+  matched_by: name-slug
 - name: Zyfin
   source: https://www.anthemis.com/portfolio/zyfin/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: zyfin
+  slug: zyfin
+  matched_by: name-slug
