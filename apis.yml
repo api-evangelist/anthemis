@@ -11,6 +11,17 @@ description: >-
   financial services. Anthemis is headquartered in London with additional presence in New York, Geneva,
   Amsterdam, Lisbon and Dallas, manages roughly $500M in assets, and has backed 300+ companies including
   Betterment, eToro, Carta, Pipe, TrueLayer, Tide, Currencycloud, Atom Bank and The Climate Corporation.
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
