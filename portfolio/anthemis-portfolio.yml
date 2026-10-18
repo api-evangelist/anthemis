@@ -3,9 +3,9 @@ method: searched
 source: https://www.anthemis.com/portfolio/
 summary:
   portfolio_total: 154
-  in_network: 154
-  api_providers: 22
-  missing: 0
+  in_network: 150
+  api_providers: 25
+  missing: 4
   stubs_created: 0
 companies:
 - name: Acre Homes
@@ -56,7 +56,7 @@ companies:
 - name: Alt Bank
   source: https://www.anthemis.com/portfolio/alt-bank/
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: alt-bank
   matched_by: name-slug
 - name: Amplify
@@ -180,7 +180,7 @@ companies:
   status: active
   slug: brandwatch
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Burbank
   source: https://www.anthemis.com/portfolio/burbank/
@@ -216,7 +216,7 @@ companies:
   status: active
   slug: cledara
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: name-slug
 - name: Clutch Wallet
   source: https://www.anthemis.com/portfolio/clutch-wallet/
@@ -229,10 +229,9 @@ companies:
   sector: insurtech
   description: Cyber insurance for small businesses.
   status: active
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: cowbell-cyber
-  matched_by: name-slug
+  suggested_slug: cowbell-cyber
 - name: Currencycloud
   source: https://www.anthemis.com/portfolio/currencycloud/
   sector: fintech
@@ -331,10 +330,9 @@ companies:
   sector: ai
   description: AI copilots for commercial real estate.
   status: active
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: fifth-dimension-ai
-  matched_by: name-slug
+  suggested_slug: fifth-dimension-ai
 - name: Flat
   source: https://www.anthemis.com/portfolio/flat/
   in_network: true
@@ -799,10 +797,9 @@ companies:
   matched_by: name-slug
 - name: Rally Rd
   source: https://www.anthemis.com/portfolio/rally-rd/
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: rally-rd
-  matched_by: name-slug
+  suggested_slug: rally-rd
 - name: Reactiv
   source: https://www.anthemis.com/portfolio/reactiv/
   in_network: true
@@ -1021,10 +1018,9 @@ companies:
   sector: insurtech
   description: Business insurance for startups.
   status: active
-  slug: vouch
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: vouch
 - name: Wayhome
   source: https://www.anthemis.com/portfolio/wayhome/
   in_network: true
