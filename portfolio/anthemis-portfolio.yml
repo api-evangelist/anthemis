@@ -13,25 +13,33 @@ companies:
   in_network: true
   is_api_provider: false
   slug: acre-homes
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.acrehomes.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Acretrader
   source: https://www.anthemis.com/portfolio/acretrader/
   in_network: true
   is_api_provider: false
   slug: acretrader
-  matched_by: name-slug
+  matched_by: domain
+  url: https://acretrader.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Addition
   source: https://www.anthemis.com/portfolio/addition/
   slug: addition
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://addition.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Agentsync
   source: https://www.anthemis.com/portfolio/agentsync/
   in_network: true
   is_api_provider: false
   slug: agentsync
-  matched_by: name-slug
+  matched_by: domain
+  url: https://agentsync.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Agreena
   source: https://www.anthemis.com/portfolio/agreena/
   sector: climate
@@ -40,19 +48,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: agreena
-  matched_by: name-slug
+  matched_by: domain
+  url: https://agreena.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Alaffia
   source: https://www.anthemis.com/portfolio/alaffia/
   in_network: true
   is_api_provider: false
   slug: alaffia
-  matched_by: name-slug
+  matched_by: domain
+  url: https://alaffiahealth.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Allocate
   source: https://www.anthemis.com/portfolio/allocate/
   in_network: true
   is_api_provider: false
   slug: allocate
-  matched_by: name-slug
+  matched_by: domain
+  url: https://allocate.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Alt Bank
   source: https://www.anthemis.com/portfolio/alt-bank/
   in_network: true
@@ -64,13 +78,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: amplify
-  matched_by: name-slug
+  matched_by: domain
+  url: https://getamplifylife.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Another
   source: https://www.anthemis.com/portfolio/another/
   in_network: true
   is_api_provider: false
   slug: another
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.joinanother.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Apis Partners
   source: https://www.anthemis.com/portfolio/apis-partners/
   sector: venture
@@ -79,7 +97,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: apis-partners
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.apis.pe/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Apollo Agriculture
   source: https://www.anthemis.com/portfolio/apollo-agriculture/
   sector: agtech
@@ -88,7 +108,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: apollo-agriculture
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.apolloagriculture.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Arkham
   source: https://www.anthemis.com/portfolio/arkham/
   sector: crypto
@@ -98,12 +120,15 @@ companies:
   is_api_provider: true
   slug: arkham
   matched_by: name-slug
+  x-url-candidate: https://arkham.ai
 - name: Artian
   source: https://www.anthemis.com/portfolio/artian/
   in_network: true
   is_api_provider: false
   slug: artian
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.artian.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Artivest
   source: https://www.anthemis.com/portfolio/artivest/
   in_network: true
@@ -117,32 +142,40 @@ companies:
   status: active
   in_network: true
   is_api_provider: false
-  slug: atom-bank
-  matched_by: name-slug
+  slug: atom-bank-plc
+  matched_by: domain
+  url: https://www.atombank.co.uk/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Atomic
   source: https://www.anthemis.com/portfolio/atomic/
   in_network: true
   is_api_provider: false
   slug: atomic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.atomicvest.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Automatic
   source: https://www.anthemis.com/portfolio/automatic/
   in_network: true
   is_api_provider: false
   slug: automatic
   matched_by: name-slug
+  x-url-candidate: https://automatic.ai
 - name: Balance Re
   source: https://www.anthemis.com/portfolio/balance-re/
   in_network: true
   is_api_provider: false
   slug: balance-re
-  matched_by: name-slug
+  matched_by: domain
+  url: https://balance.re
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Bento
   source: https://www.anthemis.com/portfolio/bento/
   in_network: true
   is_api_provider: false
   slug: bento
   matched_by: name-slug
+  x-url-candidate: https://bento.bio
 - name: Betterment
   source: https://www.anthemis.com/portfolio/betterment/
   sector: wealthtech
@@ -151,7 +184,9 @@ companies:
   slug: betterment
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.betterment.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Bigchaindb
   source: https://www.anthemis.com/portfolio/bigchaindb/
   sector: crypto
@@ -160,19 +195,25 @@ companies:
   in_network: true
   is_api_provider: true
   slug: bigchaindb
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.bigchaindb.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Blueleaf
   source: https://www.anthemis.com/portfolio/blueleaf/
   in_network: true
   is_api_provider: false
   slug: blueleaf
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.blueleaf.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Branch
   source: https://www.anthemis.com/portfolio/branch/
-  slug: branch
+  slug: branch-insurance
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ourbranch.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Brandwatch
   source: https://www.anthemis.com/portfolio/brandwatch/
   sector: data
@@ -181,25 +222,33 @@ companies:
   slug: brandwatch
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.brandwatch.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Burbank
   source: https://www.anthemis.com/portfolio/burbank/
   in_network: true
   is_api_provider: false
   slug: burbank
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.burbankdev.co.uk/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cable
   source: https://www.anthemis.com/portfolio/cable/
   in_network: true
   is_api_provider: true
   slug: cable
-  matched_by: name-slug
+  matched_by: domain
+  url: https://cable.tech/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cariqa
   source: https://www.anthemis.com/portfolio/cariqa/
   in_network: true
   is_api_provider: true
   slug: cariqa
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cariqa.com/en
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Carta
   source: https://www.anthemis.com/portfolio/carta/
   sector: fintech
@@ -208,7 +257,9 @@ companies:
   slug: carta
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://carta.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cledara
   source: https://www.anthemis.com/portfolio/cledara/
   sector: fintech
@@ -217,7 +268,9 @@ companies:
   slug: cledara
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.cledara.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Clutch Wallet
   source: https://www.anthemis.com/portfolio/clutch-wallet/
   in_network: true
@@ -240,7 +293,9 @@ companies:
   in_network: true
   is_api_provider: true
   slug: currencycloud
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.currencycloud.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Datainsurance
   source: https://www.anthemis.com/portfolio/datainsurance/
   in_network: true
@@ -252,55 +307,71 @@ companies:
   in_network: true
   is_api_provider: true
   slug: denim
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.denim.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Diagon
   source: https://www.anthemis.com/portfolio/diagon/
   in_network: true
   is_api_provider: false
   slug: diagon
-  matched_by: name-slug
+  matched_by: domain
+  url: https://diagon.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: District Cover
   source: https://www.anthemis.com/portfolio/district-cover/
   in_network: true
   is_api_provider: false
   slug: district-cover
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.districtcover.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Easyhealth
   source: https://www.anthemis.com/portfolio/easyhealth/
   in_network: true
   is_api_provider: false
   slug: easyhealth
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.easyhealth.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Eigen
   source: https://www.anthemis.com/portfolio/eigen/
   in_network: true
   is_api_provider: false
   slug: eigen
   matched_by: name-slug
+  x-url-candidate: https://eigen.io
 - name: Ejara
   source: https://www.anthemis.com/portfolio/ejara/
   in_network: true
   is_api_provider: false
   slug: ejara
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ejara.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Elevate
   source: https://www.anthemis.com/portfolio/elevate/
   in_network: true
   is_api_provider: false
   slug: elevate
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.elevate.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ember
   source: https://www.anthemis.com/portfolio/ember/
   slug: ember
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://emberjs.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ergo
   source: https://www.anthemis.com/portfolio/ergo/
   in_network: true
   is_api_provider: false
   slug: ergo
   matched_by: name-slug
+  x-url-candidate: https://www.nextinsurance.com/
 - name: Etoro
   source: https://www.anthemis.com/portfolio/etoro/
   sector: fintech
@@ -309,13 +380,17 @@ companies:
   slug: etoro
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.etoro.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Feel Therapeutics
   source: https://www.anthemis.com/portfolio/feel-therapeutics/
   in_network: true
   is_api_provider: false
   slug: feel-therapeutics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://feeltherapeutics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Fidor Bank
   source: https://www.anthemis.com/portfolio/fidor-bank/
   sector: fintech
@@ -333,12 +408,14 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: fifth-dimension-ai
+  x-url-candidate: https://www.fifthdimensionai.com/
 - name: Flat
   source: https://www.anthemis.com/portfolio/flat/
   in_network: true
   is_api_provider: false
   slug: flat
   matched_by: name-slug
+  x-url-candidate: https://flat.io
 - name: Flo
   source: https://www.anthemis.com/portfolio/flo/
   in_network: true
@@ -351,60 +428,78 @@ companies:
   is_api_provider: false
   slug: flock
   matched_by: name-slug
+  x-url-candidate: https://www.flock.com/
 - name: Fluidly
   source: https://www.anthemis.com/portfolio/fluidly/
   in_network: true
   is_api_provider: false
   slug: fluidly
   matched_by: name-slug
+  x-url-candidate: https://www.fluidly.ai/
 - name: Flyby Robotics
   source: https://www.anthemis.com/portfolio/flyby-robotics/
   in_network: true
   is_api_provider: false
   slug: flyby-robotics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.flybyrobotics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Gangkhar
   source: https://www.anthemis.com/portfolio/gangkhar/
   in_network: true
   is_api_provider: false
   slug: gangkhar
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.gangkhar.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Goin
   source: https://www.anthemis.com/portfolio/goin/
   in_network: true
   is_api_provider: false
   slug: goin
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.goin.app/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Goji
   source: https://www.anthemis.com/portfolio/goji/
   in_network: true
   is_api_provider: false
   slug: goji
-  matched_by: name-slug
+  matched_by: domain
+  url: https://goji.investments
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Greenspark
   source: https://www.anthemis.com/portfolio/greenspark/
   in_network: true
   is_api_provider: true
   slug: greenspark
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.getgreenspark.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Grover
   source: https://www.anthemis.com/portfolio/grover/
   in_network: true
   is_api_provider: false
   slug: grover
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.grover.com/de-de
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Guruhotel
   source: https://www.anthemis.com/portfolio/guruhotel/
   in_network: true
   is_api_provider: false
   slug: guruhotel
-  matched_by: name-slug
+  matched_by: domain
+  url: https://guruhotel.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Habitto
   source: https://www.anthemis.com/portfolio/habitto/
   in_network: true
   is_api_provider: false
   slug: habitto
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.habitto.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Happymoney
   source: https://www.anthemis.com/portfolio/happymoney/
   sector: fintech
@@ -413,13 +508,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: happymoney
-  matched_by: name-slug
+  matched_by: domain
+  url: https://happymoney.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Happypal
   source: https://www.anthemis.com/portfolio/happypal/
   in_network: true
   is_api_provider: false
   slug: happypal
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.happypal.fr
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hedvig
   source: https://www.anthemis.com/portfolio/hedvig/
   sector: insurtech
@@ -428,7 +527,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: hedvig
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hedvig.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hokodo
   source: https://www.anthemis.com/portfolio/hokodo/
   sector: fintech
@@ -443,19 +544,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: hometree
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hometree.co.uk/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hoptroff
   source: https://www.anthemis.com/portfolio/hoptroff/
   in_network: true
   is_api_provider: false
   slug: hoptroff
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hoptroff.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Hubifi
   source: https://www.anthemis.com/portfolio/hubifi/
   in_network: true
   is_api_provider: false
   slug: hubifi
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.hubifi.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Humanising Autonomy
   source: https://www.anthemis.com/portfolio/humanising-autonomy/
   sector: ai
@@ -471,6 +578,7 @@ companies:
   is_api_provider: false
   slug: hurdle
   matched_by: name-slug
+  x-url-candidate: https://hurdle.io
 - name: Imandra
   source: https://www.anthemis.com/portfolio/imandra/
   sector: ai
@@ -479,31 +587,41 @@ companies:
   in_network: true
   is_api_provider: false
   slug: imandra
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.imandra.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Insurdata
   source: https://www.anthemis.com/portfolio/insurdata/
   in_network: true
   is_api_provider: false
   slug: insurdata
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.insurdata.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Intellilake
   source: https://www.anthemis.com/portfolio/intellilake/
   in_network: true
   is_api_provider: false
   slug: intellilake
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.intellilake.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ivella
   source: https://www.anthemis.com/portfolio/ivella/
   in_network: true
   is_api_provider: false
   slug: ivella
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ivella.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Iwarranty
   source: https://www.anthemis.com/portfolio/iwarranty/
   in_network: true
   is_api_provider: false
   slug: iwarranty
-  matched_by: name-slug
+  matched_by: domain
+  url: https://iwarranty.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Jumo
   source: https://www.anthemis.com/portfolio/jumo/
   sector: fintech
@@ -521,19 +639,25 @@ companies:
   slug: kaiko
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kaiko.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kasheesh
   source: https://www.anthemis.com/portfolio/kasheesh/
   in_network: true
   is_api_provider: false
   slug: kasheesh
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.kasheesh.co
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kettle
   source: https://www.anthemis.com/portfolio/kettle/
   in_network: true
   is_api_provider: false
   slug: kettle
-  matched_by: name-slug
+  matched_by: domain
+  url: https://ourkettle.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Koffie Financial
   source: https://www.anthemis.com/portfolio/koffie-financial/
   sector: insurtech
@@ -551,25 +675,32 @@ companies:
   in_network: true
   is_api_provider: false
   slug: kwh-analytics
-  matched_by: name-slug
+  matched_by: domain
+  url: https://kwhanalytics.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Kyte
   source: https://www.anthemis.com/portfolio/kyte/
   in_network: true
   is_api_provider: false
   slug: kyte
   matched_by: name-slug
+  x-url-candidate: https://kyte.com
 - name: Liquidly
   source: https://www.anthemis.com/portfolio/liquidly/
   in_network: true
   is_api_provider: false
   slug: liquidly
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.liquidly.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Liquidtrust
   source: https://www.anthemis.com/portfolio/liquidtrust/
   in_network: true
   is_api_provider: false
   slug: liquidtrust
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.liquidtrust.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Loconav
   source: https://www.anthemis.com/portfolio/loconav/
   in_network: true
@@ -581,13 +712,16 @@ companies:
   in_network: true
   is_api_provider: false
   slug: matic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://matic.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Maxwell
   source: https://www.anthemis.com/portfolio/maxwell/
   in_network: true
   is_api_provider: false
   slug: maxwell
   matched_by: name-slug
+  x-url-candidate: https://maxwell.com
 - name: Meniga
   source: https://www.anthemis.com/portfolio/meniga/
   sector: fintech
@@ -596,13 +730,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: meniga
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.meniga.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mesh
   source: https://www.anthemis.com/portfolio/mesh/
   in_network: true
   is_api_provider: true
-  slug: mesh
-  matched_by: name-slug
+  slug: mesh-connect
+  matched_by: domain
+  url: https://www.meshpay.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Messari
   source: https://www.anthemis.com/portfolio/messari/
   sector: crypto
@@ -612,6 +750,7 @@ companies:
   in_network: true
   is_api_provider: true
   matched_by: name-slug
+  x-url-candidate: https://messari.com
 - name: Metamarkets
   source: https://www.anthemis.com/portfolio/metamarkets/
   in_network: true
@@ -626,7 +765,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: monese
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.monese.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Moven
   source: https://www.anthemis.com/portfolio/moven/
   sector: fintech
@@ -635,7 +776,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: moven
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.moven.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Mporium
   source: https://www.anthemis.com/portfolio/mporium/
   in_network: true
@@ -648,12 +791,15 @@ companies:
   is_api_provider: false
   slug: neptune-networks
   matched_by: name-slug
+  x-url-candidate: https://neptunenetworks.com
 - name: Nivelo
   source: https://www.anthemis.com/portfolio/nivelo/
   in_network: true
   is_api_provider: false
   slug: nivelo
-  matched_by: name-slug
+  matched_by: domain
+  url: https://nivelo.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Novoic
   source: https://www.anthemis.com/portfolio/novoic/
   sector: ai
@@ -662,7 +808,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: novoic
-  matched_by: name-slug
+  matched_by: domain
+  url: https://novoic.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Numan
   source: https://www.anthemis.com/portfolio/numan/
   sector: healthtech
@@ -671,31 +819,40 @@ companies:
   in_network: true
   is_api_provider: false
   slug: numan
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.numan.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ohalo
   source: https://www.anthemis.com/portfolio/ohalo/
   in_network: true
   is_api_provider: false
   slug: ohalo
   matched_by: name-slug
+  x-url-candidate: https://www.ohalo.com/
 - name: Omnius
   source: https://www.anthemis.com/portfolio/omnius/
   in_network: true
   is_api_provider: false
   slug: omnius
-  matched_by: name-slug
+  matched_by: domain
+  url: https://omnius.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Onsiteiq
   source: https://www.anthemis.com/portfolio/onsiteiq/
   in_network: true
   is_api_provider: false
   slug: onsiteiq
-  matched_by: name-slug
+  matched_by: domain
+  url: https://onsiteiq.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Opply
   source: https://www.anthemis.com/portfolio/opply/
   in_network: true
   is_api_provider: true
   slug: opply
-  matched_by: name-slug
+  matched_by: domain
+  url: https://opply.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Ott Risk
   source: https://www.anthemis.com/portfolio/ott-risk/
   in_network: true
@@ -707,13 +864,16 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pack
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.the-pack.ai/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Pile
   source: https://www.anthemis.com/portfolio/pile/
   in_network: true
   is_api_provider: false
   slug: pile
   matched_by: name-slug
+  x-url-candidate: https://www.pile.com/
 - name: Pipe
   source: https://www.anthemis.com/portfolio/pipe/
   sector: fintech
@@ -722,7 +882,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: pipe
-  matched_by: name-slug
+  matched_by: domain
+  url: https://pipe.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Plus Simple
   source: https://www.anthemis.com/portfolio/plus-simple/
   in_network: true
@@ -734,25 +896,31 @@ companies:
   in_network: true
   is_api_provider: false
   slug: plush
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.plush.shop
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Poppins Health
   source: https://www.anthemis.com/portfolio/poppins-health/
   in_network: true
   is_api_provider: false
   slug: poppins-health
   matched_by: name-slug
+  x-url-candidate: https://poppins.com
 - name: Poppy
   source: https://www.anthemis.com/portfolio/poppy/
   in_network: true
   is_api_provider: false
   slug: poppy
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.poppyflowers.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Power
   source: https://www.anthemis.com/portfolio/power/
   in_network: true
   is_api_provider: false
   slug: power
   matched_by: name-slug
+  x-url-candidate: https://www.power.com/
 - name: Premise
   source: https://www.anthemis.com/portfolio/premise/
   sector: data
@@ -761,25 +929,33 @@ companies:
   in_network: true
   is_api_provider: false
   slug: premise
-  matched_by: name-slug
+  matched_by: domain
+  url: https://premise.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Project Admission
   source: https://www.anthemis.com/portfolio/project-admission/
   in_network: true
   is_api_provider: false
   slug: project-admission
-  matched_by: name-slug
+  matched_by: domain
+  url: https://projectadmission.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Proportunity
   source: https://www.anthemis.com/portfolio/proportunity/
   in_network: true
   is_api_provider: false
   slug: proportunity
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.proportunity.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Provable
   source: https://www.anthemis.com/portfolio/provable/
   in_network: true
   is_api_provider: false
   slug: provable
-  matched_by: name-slug
+  matched_by: domain
+  url: https://provablemarkets.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Qover
   source: https://www.anthemis.com/portfolio/qover/
   sector: insurtech
@@ -788,13 +964,17 @@ companies:
   in_network: true
   is_api_provider: false
   slug: qover
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.qover.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Raincoat
   source: https://www.anthemis.com/portfolio/raincoat/
   in_network: true
   is_api_provider: false
   slug: raincoat
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.raincoat.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rally Rd
   source: https://www.anthemis.com/portfolio/rally-rd/
   in_network: false
@@ -805,19 +985,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: reactiv
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.reactiv.ai
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Realyse
   source: https://www.anthemis.com/portfolio/realyse/
   in_network: true
   is_api_provider: false
   slug: realyse
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.realyse.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Reload
   source: https://www.anthemis.com/portfolio/reload/
   in_network: true
   is_api_provider: true
   slug: reload
   matched_by: name-slug
+  url: https://reload.work/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Reserv
   source: https://www.anthemis.com/portfolio/reserv/
   sector: insurtech
@@ -826,13 +1012,16 @@ companies:
   in_network: true
   is_api_provider: false
   slug: reserv
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.reserv.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rize
   source: https://www.anthemis.com/portfolio/rize/
   in_network: true
   is_api_provider: false
   slug: rize
   matched_by: name-slug
+  x-url-candidate: https://rize.io
 - name: Seedcamp
   source: https://www.anthemis.com/portfolio/seedcamp/
   sector: venture
@@ -841,13 +1030,16 @@ companies:
   in_network: true
   is_api_provider: false
   slug: seedcamp
-  matched_by: name-slug
+  matched_by: domain
+  url: https://seedcamp.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Seen
   source: https://www.anthemis.com/portfolio/seen/
   in_network: true
   is_api_provider: false
   slug: seen
   matched_by: name-slug
+  x-url-candidate: https://seen.com
 - name: Sentimoto
   source: https://www.anthemis.com/portfolio/sentimoto/
   in_network: true
@@ -859,25 +1051,32 @@ companies:
   in_network: true
   is_api_provider: false
   slug: silvur
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.silvur.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Simple
   source: https://www.anthemis.com/portfolio/simple/
   in_network: true
   is_api_provider: false
   slug: simple
   matched_by: name-slug
+  x-url-candidate: https://www.simple.io/
 - name: Simpleclosure
   source: https://www.anthemis.com/portfolio/simpleclosure/
   in_network: true
   is_api_provider: false
   slug: simpleclosure
-  matched_by: name-slug
+  matched_by: domain
+  url: https://simpleclosure.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Skuad
   source: https://www.anthemis.com/portfolio/skuad/
   in_network: true
   is_api_provider: false
   slug: skuad
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.skuad.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Springbank
   source: https://www.anthemis.com/portfolio/springbank/
   in_network: true
@@ -890,6 +1089,7 @@ companies:
   is_api_provider: false
   slug: stable
   matched_by: name-slug
+  x-url-candidate: https://stable.com
 - name: Stash
   source: https://www.anthemis.com/portfolio/stash/
   sector: fintech
@@ -898,13 +1098,16 @@ companies:
   slug: stash
   in_network: true
   is_api_provider: false
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.stash.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Stepex
   source: https://www.anthemis.com/portfolio/stepex/
   in_network: true
   is_api_provider: false
   slug: stepex
   matched_by: name-slug
+  x-url-candidate: https://www.stepex.com/
 - name: Stoik
   source: https://www.anthemis.com/portfolio/stoik/
   in_network: true
@@ -917,24 +1120,31 @@ companies:
   is_api_provider: true
   slug: super-seguros
   matched_by: name-slug
+  x-url-candidate: https://superseguros.co
 - name: Sydecar
   source: https://www.anthemis.com/portfolio/sydecar/
   in_network: true
   is_api_provider: false
   slug: sydecar
-  matched_by: name-slug
+  matched_by: domain
+  url: https://sydecar.io
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Taina
   source: https://www.anthemis.com/portfolio/taina/
   in_network: true
   is_api_provider: false
   slug: taina
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.taina.tech
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tesser
   source: https://www.anthemis.com/portfolio/tesser/
   in_network: true
   is_api_provider: true
   slug: tesser
-  matched_by: name-slug
+  matched_by: domain
+  url: https://tesser.xyz
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: The Climate Corporation
   source: https://www.anthemis.com/portfolio/the-climate-corporation/
   sector: climate
@@ -952,7 +1162,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: tide
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.tide.co/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Timetric
   source: https://www.anthemis.com/portfolio/timetric/
   in_network: true
@@ -964,13 +1176,16 @@ companies:
   in_network: true
   is_api_provider: true
   slug: treasuryspring
-  matched_by: name-slug
+  matched_by: domain
+  url: https://treasuryspring.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Tremor
   source: https://www.anthemis.com/portfolio/tremor/
   in_network: true
   is_api_provider: false
   slug: tremor
   matched_by: name-slug
+  x-url-candidate: https://tremor.com
 - name: Truelayer
   source: https://www.anthemis.com/portfolio/truelayer/
   sector: fintech
@@ -986,12 +1201,15 @@ companies:
   is_api_provider: true
   slug: rentle
   matched_by: name-slug
+  x-url-candidate: https://rentle.ai
 - name: Ultralight
   source: https://www.anthemis.com/portfolio/ultralight/
   in_network: true
   is_api_provider: false
   slug: ultralight
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.ultralighthealth.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Unmind
   source: https://www.anthemis.com/portfolio/unmind/
   sector: healthtech
@@ -1000,19 +1218,25 @@ companies:
   in_network: true
   is_api_provider: false
   slug: unmind
-  matched_by: name-slug
+  matched_by: domain
+  url: https://unmind.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Upkeep
   source: https://www.anthemis.com/portfolio/upkeep/
   slug: upkeep
   in_network: true
   is_api_provider: true
-  matched_by: name-slug
+  matched_by: domain
+  url: https://upkeep.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Cit Vericash
   source: https://www.anthemis.com/portfolio/cit-vericash/
   in_network: true
   is_api_provider: false
   slug: cit-vericash
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.citvericash.com
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Vouch
   source: https://www.anthemis.com/portfolio/vouch/
   sector: insurtech
@@ -1021,24 +1245,31 @@ companies:
   in_network: false
   is_api_provider: false
   suggested_slug: vouch
+  x-url-candidate: https://www.vouch.io/
 - name: Wayhome
   source: https://www.anthemis.com/portfolio/wayhome/
   in_network: true
   is_api_provider: false
   slug: wayhome
-  matched_by: name-slug
+  matched_by: domain
+  url: https://wayhome.co.uk
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Weavr
   source: https://www.anthemis.com/portfolio/weavr/
   in_network: true
   is_api_provider: true
   slug: weavr
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.weavr.io/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Wollit
   source: https://www.anthemis.com/portfolio/wollit/
   in_network: true
   is_api_provider: false
   slug: wollit
-  matched_by: name-slug
+  matched_by: domain
+  url: https://www.wollit.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Yulife
   source: https://www.anthemis.com/portfolio/yulife/
   sector: insurtech
@@ -1047,7 +1278,9 @@ companies:
   in_network: true
   is_api_provider: false
   slug: yulife
-  matched_by: name-slug
+  matched_by: domain
+  url: https://yulife.com/
+  x-url-source: network-repo (title-verified 2026-10-18)
 - name: Zyfin
   source: https://www.anthemis.com/portfolio/zyfin/
   in_network: true
