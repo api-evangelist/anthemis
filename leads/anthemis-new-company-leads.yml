@@ -2,26 +2,12 @@ generated: '2026-10-18'
 method: derived
 source_vc: anthemis
 leads:
-- name: Cowbell Cyber
-  url: ''
-  suggested_slug: cowbell-cyber
-  sector: insurtech
-  source_vc: anthemis
-  source: https://www.anthemis.com/portfolio/cowbell-cyber/
-  stub_created: false
 - name: Fifth Dimension Ai
   url: ''
   suggested_slug: fifth-dimension-ai
   sector: ai
   source_vc: anthemis
   source: https://www.anthemis.com/portfolio/fifth-dimension-ai/
-  stub_created: false
-- name: Rally Rd
-  url: ''
-  suggested_slug: rally-rd
-  sector: ''
-  source_vc: anthemis
-  source: https://www.anthemis.com/portfolio/rally-rd/
   stub_created: false
 - name: Vouch
   url: ''

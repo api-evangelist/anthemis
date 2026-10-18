@@ -3,9 +3,9 @@ method: searched
 source: https://www.anthemis.com/portfolio/
 summary:
   portfolio_total: 154
-  in_network: 150
+  in_network: 152
   api_providers: 25
-  missing: 4
+  missing: 2
   stubs_created: 0
 companies:
 - name: Acre Homes
@@ -282,9 +282,12 @@ companies:
   sector: insurtech
   description: Cyber insurance for small businesses.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cowbell-cyber
+  url: https://cowbell.insure
+  x-url-source: web search 2026-10-18
+  slug: cowbell
+  matched_by: domain
 - name: Currencycloud
   source: https://www.anthemis.com/portfolio/currencycloud/
   sector: fintech
@@ -977,9 +980,12 @@ companies:
   x-url-source: network-repo (title-verified 2026-10-18)
 - name: Rally Rd
   source: https://www.anthemis.com/portfolio/rally-rd/
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rally-rd
+  url: https://www.rallyrd.com
+  x-url-source: web search 2026-10-18
+  slug: rally
+  matched_by: domain
 - name: Reactiv
   source: https://www.anthemis.com/portfolio/reactiv/
   in_network: true
