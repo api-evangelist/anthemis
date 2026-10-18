@@ -1,18 +1,4 @@
 generated: '2026-10-18'
 method: derived
 source_vc: anthemis
-leads:
-- name: Fifth Dimension Ai
-  url: ''
-  suggested_slug: fifth-dimension-ai
-  sector: ai
-  source_vc: anthemis
-  source: https://www.anthemis.com/portfolio/fifth-dimension-ai/
-  stub_created: false
-- name: Vouch
-  url: ''
-  suggested_slug: vouch
-  sector: insurtech
-  source_vc: anthemis
-  source: https://www.anthemis.com/portfolio/vouch/
-  stub_created: false
+leads: []

@@ -3,9 +3,9 @@ method: searched
 source: https://www.anthemis.com/portfolio/
 summary:
   portfolio_total: 154
-  in_network: 152
+  in_network: 154
   api_providers: 25
-  missing: 2
+  missing: 0
   stubs_created: 0
 companies:
 - name: Acre Homes
@@ -408,10 +408,12 @@ companies:
   sector: ai
   description: AI copilots for commercial real estate.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fifth-dimension-ai
-  x-url-candidate: https://www.fifthdimensionai.com/
+  url: https://www.fifthdimensionai.com/
+  x-url-source: web check 2026-10-18 (confirmed)
+  slug: fifth-dimension
+  matched_by: domain
 - name: Flat
   source: https://www.anthemis.com/portfolio/flat/
   in_network: true
@@ -1248,10 +1250,12 @@ companies:
   sector: insurtech
   description: Business insurance for startups.
   status: active
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: vouch
-  x-url-candidate: https://www.vouch.io/
+  url: https://www.vouch.us
+  x-url-source: web check 2026-10-18 (replaced)
+  slug: vouch-co
+  matched_by: domain
 - name: Wayhome
   source: https://www.anthemis.com/portfolio/wayhome/
   in_network: true
